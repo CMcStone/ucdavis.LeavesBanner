@@ -135,7 +135,7 @@ hr { display: none; }
 }
 
 #header {
-	width: 900px;
+	width: 1000px;
 	height: 50px;
 	margin: 0 auto;
 	background: url(images/img03.jpg) no-repeat left top;
@@ -145,7 +145,7 @@ hr { display: none; }
 
 #menu {
 	float: left;
-	width: 540px;
+	width: 1000px;
 	height: 50px;
 }
 
@@ -232,7 +232,7 @@ hr { display: none; }
 /* Page */
 
 #page {
-	width: 840px;
+	width: 940px;
 	margin: 0 auto;
 	padding: 30px 30px 0px 30px;
 	background: #FFFFFF;
@@ -242,10 +242,10 @@ hr { display: none; }
 	/** LOGO */
 
 #logo {
-	width: 850px;
+	width: 1000px;
 	height: 300px;
 	margin: 0 auto;
-	padding-left: 50px;
+	padding-left: 0;
 	background: url(images/img02.jpg) no-repeat left top;
 }
 
@@ -264,7 +264,7 @@ hr { display: none; }
 }
 
 #logo h1 {
-	padding: 155px 0px 0px 0px;
+	padding: 155px 0px 0px 25px;
 	font-size: 34px;
 }
 
@@ -432,7 +432,7 @@ hr { display: none; }
 /* Footer */
 
 #footer {
-	width: 900px;
+	width: 1000px;
 	margin: 0 auto;
 	padding: 0;
 	height: 30px;

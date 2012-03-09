@@ -36,8 +36,9 @@
     <drop attributes="id" css:content="#portal-globalnav"/>
     <!-- Pull in personal tools -->
     <prepend content='//*[@id="portal-personaltools-wrapper"]' theme='//*[@id="logo"]' />
+    
     <!-- Pull in search box -->
-    <replace content='//*[@id="portal-searchbox"]' theme='//*[@id="search"]' />
+    <prepend content='//*[@id="portal-searchbox"]' theme='//*[@id="logo"]' />
     <!-- Pull in content -->
     <copy content='//*[@id="portal-column-content"]' theme='//*[@id="wrapper-content"]' />
     <!-- Drop global navigation menu's class-->
