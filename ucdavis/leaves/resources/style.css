@@ -181,14 +181,7 @@ hr { display: none; }
 	background: #dfcc80;
 	color: #FFFFFF;
 }
-#edit-bar {
-    background-color: #b2bed1;
-    border: 0.25em solid #667DA3;
-    font-size: 80%;
-    margin-bottom: 1em;
-    min-height: 2em;
-    padding-top: 0.05em;
-}
+
 
 /* Search *
 #search {

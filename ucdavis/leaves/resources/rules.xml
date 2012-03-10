@@ -39,7 +39,7 @@
     
     <!-- Pull in search box -->
     <prepend content='//*[@id="portal-searchbox"]' theme='//*[@id="logo"]' />
-    <!-- Pull in content -->
+        <!-- Pull in content -->
     <copy content='//*[@id="portal-column-content"]' theme='//*[@id="wrapper-content"]' />
     <!-- Drop global navigation menu's class-->
     <drop attributes="class" css:content="#portal-column-content"/>
@@ -57,7 +57,7 @@
     
     <drop theme='//*[@id="slogan"]' />
     <drop theme='//*[@id="rss"]' />
-    <theme href="index.html" />
+    <theme href="index.html" css:if-content="#visual-portal-wrapper" />
     
 
 </rules>
