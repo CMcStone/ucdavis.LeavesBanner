@@ -238,8 +238,18 @@ hr { display: none; }
 	width: 1000px;
 	height: 300px;
 	margin: 0 auto;
-	padding-left: 0;
-	background: url(images/img02.jpg) no-repeat left top;
+	padding-left: 0px;
+	background: url(images/mondavi.jpg) no-repeat center top;
+	background-color: white;
+	z-index: -2;
+}
+.site-title {
+	padding-top: 130px;
+	width: 557px;
+	height: 107px;
+	background: url(images/namebanner.png)no-repeat left bottom;
+	
+	z-index: -1;
 }
 
 #logo h1, #logo p {
@@ -257,8 +267,11 @@ hr { display: none; }
 }
 
 #logo h1 {
-	padding: 155px 0px 0px 25px;
+	position: relative;
+	padding-top: 30px;
+	padding-left: 20px;
 	font-size: 34px;
+	z-index: 1;
 }
 
 #logo a {
