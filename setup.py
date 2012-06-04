@@ -3,7 +3,7 @@ import os
 
 version = '1.0'
 
-setup(name='ucdavis.leaves',
+setup(name='ucdavis.LeavesBanner',
       version=version,
       description="Diazo Template",
       long_description=open("README.rst").read() + "\n" +

@@ -4,7 +4,7 @@
     xmlns:i18n="http://namespaces.zope.org/i18n"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     xmlns:plone="http://namespaces.plone.org/plone"
-    i18n_domain="ucdavis.leaves">
+    i18n_domain="ucdavis.LeavesBanner">
 
   <includeDependencies package="." />
 
@@ -12,9 +12,9 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="ucdavis.leaves"
+      title="ucdavis.LeavesBanner"
       directory="profiles/default"
-      description="Installs the ucdavis.leaves package"
+      description="Installs the ucdavis.LeavesBanner package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
   <!-- -*- extra stuff goes here -*- -->
