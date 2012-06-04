@@ -239,10 +239,11 @@ hr { display: none; }
 	height: 300px;
 	margin: 0 auto;
 	padding-left: 0px;
-	background: url(images/mondavi.jpg) no-repeat center top;
 	background-color: white;
+	background: url(images/mondavi.jpg) no-repeat center top;
 	z-index: -2;
 }
+
 .site-title {
 	padding-top: 130px;
 	width: 557px;
